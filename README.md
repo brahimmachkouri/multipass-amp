@@ -6,6 +6,12 @@ This playbook will install a dev environment based on **A**pache, **M**ySQL and 
 
 - `mysql_root_password`: the password for the MySQL root account.
 
+If you don't have yet a multipass vm running, try this :
+
+```shell
+multipass launch jammy --name lab --cpus 2 --mem 2G --disk 10G
+```
+
 ## Running this Playbook
 
 Quickstart guide :
