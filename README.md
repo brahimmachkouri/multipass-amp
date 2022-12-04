@@ -2,6 +2,8 @@
 
 This playbook will install a dev environment based on **A**pache, **M**ySQL and **P**HP in a multipass Ubuntu 22.04 virtual machine. A CodeIgniter default app will be created with the options specified in the `vars/default.yml` variable file.
 
+Warning : only tested on macos for now.
+
 ## Settings
 
 - `mysql_root_password`: the password for the MySQL root account.
