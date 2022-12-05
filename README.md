@@ -1,4 +1,4 @@
-# Multipass AMP (macos)
+# Multipass AMP (for macos)
 
 This playbook will install a dev environment based on **A**pache, **M**ySQL and **P**HP in a [multipass](https://multipass.run/docs) Ubuntu 22.04 virtual machine. A CodeIgniter default app will be created with the options specified in the `vars/default.yml` variable file.
 
