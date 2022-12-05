@@ -12,7 +12,7 @@ If you don't have brew installed yet :
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-If you don't have ansible installed in your macos :
+If you don't have ansible installed :
 ```shell
 brew install ansible
 ```
