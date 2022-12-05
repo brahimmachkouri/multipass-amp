@@ -13,6 +13,7 @@ sed 's/{{ hostip }}/'$ip'/' inventory > inventory.yml
 
 # use the multipass private key to use the multipass vm
 user=$(whoami)
+# ubuntu : /var/snap/multipass/common/data/multipassd/ssh-keys/id_rsa
 sudo cp /var/root/Library/Application\ Support/multipassd/ssh-keys/id_rsa ./mp_private_key
 sudo chown $user ./mp_private_key
 
