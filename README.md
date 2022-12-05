@@ -67,3 +67,23 @@ Run the script you've just renamed :
 ```shell
 ./lab
 ```
+
+### 5. Start and stop the VM afterwards
+
+To start the multipass VM named 'lab' :
+```shell
+multipass start lab
+```
+
+To stop the multipass VM named 'lab' :
+```shell
+multipass stop lab
+```
+
+To delete the multipass VM named 'lab' :
+```shell
+multipass delete lab
+multipass purge
+```
+
+
