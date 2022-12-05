@@ -8,8 +8,23 @@ Warning : only tested on macos for now.
 
 - `mysql_root_password`: the password for the MySQL root account.
 
-If you don't have yet a multipass vm running, try this :
 
+If you don't have brew installed yet :
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+If you don't have ansible installed in your macos :
+```shell
+brew install ansible
+```
+
+If you don't have multipass installed yet :
+```shell
+brew install --cask multipass
+```
+
+If you don't have yet a multipass vm running, try this :
 ```shell
 multipass launch jammy --name lab --cpus 2 --mem 2G --disk 10G
 ```
